@@ -1,0 +1,18 @@
+.flashcard {
+    width: 300px;
+    height: 200px;
+    background-color: #f2f2f2;
+    border: 1px solid black;
+    padding: 10px;
+  }
+  
+  .flashcard-question {
+    font-size: 26px;
+    font-weight: bold;
+  }
+  
+  .flashcard-answer {
+    font-size: 26px;
+    display: none;
+  }
+  

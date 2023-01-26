@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flashcard App</title>
+    <link rel="stylesheet" type="text/css" href="style2.css">
+  </head>
+  <body>
+    <div class="flashcard">
+      <div class="flashcard-question">Add a flashcard!</div>
+      <!-- <button id="flip-button" onclick="flipCard()">Flip</button> -->
+      <div class="flashcard-answer">Its answer will appear on this side!</div>
+    </div>
+    <div> </div>
+    <div> </div>
+    <div> </div>
+    <div> </div>
+    <div> </div>
+    <button id="nextCard" onclick="getNext()">Next</button>
+    <form id="newAddition">
+        <label>
+            Question:
+            <input type="text" id="questionInput">
+        </label>
+        <label>
+            Answer:
+            <input type="text" id="answerInput">
+        </label>
+        <button type="button" onclick="addFlashcard()">Add flashcard</button>
+        <button type="button" onclick="removeFlashcard()">Remove Flashcard</button>
+    </form>
+    <form id="guess">
+      <label>
+        Test your memory
+        <input type="text" id="response">
+      </label>
+      <button type="button" onclick="checkOtherSide()">Response</button>
+      <div class="responseResponse">Were you right?</div>
+    </form>            
+    <script src="script2.js"></script>
+  </body>
+</html>
